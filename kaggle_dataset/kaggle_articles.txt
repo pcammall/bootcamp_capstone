@@ -1,0 +1,11 @@
+https://www.kaggle.com/code/mmmarchetti/sentiment-analysis-on-financial-news
+
+https://www.kaggle.com/code/octavioperezur/eda-and-sentiment-analysis-of-finance-news
+
+https://www.kaggle.com/datasets/yash612/stockmarket-sentiment-dataset  <<this one is labelled
+
+https://www.kaggle.com/datasets/gennadiyr/us-equities-news-data
+
+https://www.kaggle.com/code/gudlaarunkumar/financial-news-headline-sentiment  << describes using VADER for generating sentiment labels
+
+
