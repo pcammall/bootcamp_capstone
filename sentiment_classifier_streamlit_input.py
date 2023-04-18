@@ -155,12 +155,18 @@ cleaned_buffer.append(temp)
 cleaned_buffer
 # tfidf = TfidfVectorizer(ngram_range=(1,3))
 # user_input_tf = tfidf.fit_transform(cleaned_buffer)    
-user_input_tf = tfidf.transform(cleaned_buffer)
+user_input_tf = tfidf.transform(cleaned_buffer) #<<<< Use transform
 # user_input_tf.shape
 print(user_input_tf)   
 
-forest4.predict(user_input_tf)
+result = forest4.predict(user_input_tf)
 
+if result >= 0:
+    st.write("Negative")
+else:
+    st.write("Positive")
+    
 st.write("end file")
 
 #run training seperately. Then load to streamlit and do the prediction input in streamlit. Only the prediction input.
+#save both classifer and vectorizer in a seperate thing that gets loaded. The training is done offline, and then you load them to do the prediction
