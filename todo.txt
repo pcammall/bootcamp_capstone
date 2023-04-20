@@ -1,3 +1,0 @@
-find out how many "short" sentences there are (all setence length)
-print the classification report showing the perforamnce (precision, recall, etc.) this exists in scikitlearn
-rewview nlp chapters
