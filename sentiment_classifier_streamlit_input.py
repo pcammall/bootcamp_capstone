@@ -9,12 +9,16 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import cross_val_score
 from sklearn.model_selection import GridSearchCV
 
+import pickle
+
+
 import re
 import string
 import nltk
 from nltk.stem import WordNetLemmatizer
+nltk.download('stopwords')
 
-import pickle
+
 
 #setup streamlit, which makes it pretty for display
 import streamlit as st
