@@ -14,7 +14,7 @@ import string
 import nltk
 from nltk.stem import WordNetLemmatizer
 
-import pickle
+#import pickle
 
 #setup streamlit, which makes it pretty for display
 import streamlit as st
