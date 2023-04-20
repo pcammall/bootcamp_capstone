@@ -17,7 +17,7 @@ import string
 import nltk
 from nltk.stem import WordNetLemmatizer
 nltk.download('stopwords')
-
+nltk.download('wordnet')
 
 
 #setup streamlit, which makes it pretty for display
